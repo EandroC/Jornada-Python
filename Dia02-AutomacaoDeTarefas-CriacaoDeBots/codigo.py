@@ -31,7 +31,7 @@ pyautogui.press("enter")
 
 time.sleep(5)
 
-tabela = pd.read_csv("produtos.csv")
+tabela = pd.read_csv("../Dados/produtos.csv")
 
 print(tabela)
 
